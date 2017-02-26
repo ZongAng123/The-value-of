@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		74AB2C9C1E61700500726B31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AB2C9B1E61700500726B31 /* main.m */; };
 		74AB2C9F1E61700500726B31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AB2C9E1E61700500726B31 /* AppDelegate.m */; };
-		74AB2CA21E61700500726B31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AB2CA11E61700500726B31 /* ViewController.m */; };
 		74AB2CA51E61700500726B31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74AB2CA31E61700500726B31 /* Main.storyboard */; };
 		74AB2CA71E61700500726B31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74AB2CA61E61700500726B31 /* Assets.xcassets */; };
 		74AB2CAA1E61700500726B31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74AB2CA81E61700500726B31 /* LaunchScreen.storyboard */; };
 		74AB2CB51E61700500726B31 /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AB2CB41E61700500726B31 /* _______Tests.m */; };
 		74AB2CC01E61700500726B31 /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AB2CBF1E61700500726B31 /* _______UITests.m */; };
+		74AB2CCF1E61702D00726B31 /* RootViewControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AB2CCE1E61702D00726B31 /* RootViewControllers.m */; };
+		74AB2CD21E6170F000726B31 /* DetailViewControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AB2CD11E6170F000726B31 /* DetailViewControllers.m */; };
+		74E38A491E6279C900EE1F6B /* AppStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E38A481E6279C900EE1F6B /* AppStatus.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +41,6 @@
 		74AB2C9B1E61700500726B31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		74AB2C9D1E61700500726B31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		74AB2C9E1E61700500726B31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		74AB2CA01E61700500726B31 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		74AB2CA11E61700500726B31 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		74AB2CA41E61700500726B31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74AB2CA61E61700500726B31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74AB2CA91E61700500726B31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +51,12 @@
 		74AB2CBB1E61700500726B31 /* 界面传值的代码UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "界面传值的代码UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74AB2CBF1E61700500726B31 /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
 		74AB2CC11E61700500726B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74AB2CCD1E61702D00726B31 /* RootViewControllers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewControllers.h; sourceTree = "<group>"; };
+		74AB2CCE1E61702D00726B31 /* RootViewControllers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewControllers.m; sourceTree = "<group>"; };
+		74AB2CD01E6170F000726B31 /* DetailViewControllers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewControllers.h; sourceTree = "<group>"; };
+		74AB2CD11E6170F000726B31 /* DetailViewControllers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewControllers.m; sourceTree = "<group>"; };
+		74E38A471E6279C900EE1F6B /* AppStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppStatus.h; sourceTree = "<group>"; };
+		74E38A481E6279C900EE1F6B /* AppStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppStatus.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +109,12 @@
 			children = (
 				74AB2C9D1E61700500726B31 /* AppDelegate.h */,
 				74AB2C9E1E61700500726B31 /* AppDelegate.m */,
-				74AB2CA01E61700500726B31 /* ViewController.h */,
-				74AB2CA11E61700500726B31 /* ViewController.m */,
+				74AB2CCD1E61702D00726B31 /* RootViewControllers.h */,
+				74AB2CCE1E61702D00726B31 /* RootViewControllers.m */,
+				74AB2CD01E6170F000726B31 /* DetailViewControllers.h */,
+				74AB2CD11E6170F000726B31 /* DetailViewControllers.m */,
+				74E38A471E6279C900EE1F6B /* AppStatus.h */,
+				74E38A481E6279C900EE1F6B /* AppStatus.m */,
 				74AB2CA31E61700500726B31 /* Main.storyboard */,
 				74AB2CA61E61700500726B31 /* Assets.xcassets */,
 				74AB2CA81E61700500726B31 /* LaunchScreen.storyboard */,
@@ -270,9 +280,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74AB2CA21E61700500726B31 /* ViewController.m in Sources */,
 				74AB2C9F1E61700500726B31 /* AppDelegate.m in Sources */,
+				74AB2CCF1E61702D00726B31 /* RootViewControllers.m in Sources */,
 				74AB2C9C1E61700500726B31 /* main.m in Sources */,
+				74AB2CD21E6170F000726B31 /* DetailViewControllers.m in Sources */,
+				74E38A491E6279C900EE1F6B /* AppStatus.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +510,7 @@
 				74AB2CC61E61700500726B31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74AB2CC71E61700500726B31 /* Build configuration list for PBXNativeTarget "界面传值的代码Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +519,7 @@
 				74AB2CC91E61700500726B31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74AB2CCA1E61700500726B31 /* Build configuration list for PBXNativeTarget "界面传值的代码UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +528,7 @@
 				74AB2CCC1E61700500726B31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
